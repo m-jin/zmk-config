@@ -86,7 +86,8 @@
             label = "BACKSPACE_DELETE";
             #binding-cells = <0>;
             bindings = <&kp BACKSPACE>, <&kp DELETE>;
-            mods = <(MOD_LSFT)>;
+            mods = <(MOD_LSFT|MOD_LCTL)>;
+            keep-mods = <(MOD_LCTL)>;
         };
         sft_lrt: shift_lr_toggle {
             compatible = "zmk,behavior-mod-morph";
