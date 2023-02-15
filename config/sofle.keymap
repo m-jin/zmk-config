@@ -32,7 +32,7 @@
                    &kp RALT &kp LGUI &lalt_lt  &kp SPACE &lt LOWER LBKT   &lt LOWER RBKT &kp SPACE &kp MINUS &kp EQUAL &none
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
         1 {
@@ -51,7 +51,7 @@
                    &trans    &trans      &trans    &trans  &trans     &trans  &ext_power EP_TOG &trans   &trans    &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
         2 {
@@ -69,7 +69,7 @@
                         &trans       &trans       &trans       &trans  &trans   &trans  &kp C_PP  &trans    &trans   &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
     };
     
